@@ -20,5 +20,11 @@ int main() {
 
 	char *ptr = str;
 
+	std::cout << str << std::endl;
+
 	replace_chars(ptr, s, r);
+
+	std::cout << str << std::endl;
+
+	system("pause");
 }

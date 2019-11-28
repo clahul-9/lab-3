@@ -4,7 +4,7 @@
 using namespace std;
 
 double average_salary(double *s, int l) {
-	double sum;
+	double sum=0;
 	for (int i = 0; i < l; i++)
 	{
 		sum += *(s + i);
@@ -21,7 +21,6 @@ int main() {
 	{
 		cout << "sallaries: ";
 		cin >> arr[i];
-		cout << endl;
 	}
 	cout << endl;
 
@@ -30,4 +29,5 @@ int main() {
 	cout<<"The average sallary is "<<average_salary(ptr,nr)<<endl;
 
 	delete arr;
+	system("pause");
 }
